@@ -26,7 +26,7 @@
   })
 </script>
 
-<style lang='scss' scoped>
+<style lang='scss'>
   button {
     outline: none;
     border: 0;

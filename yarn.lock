@@ -486,3 +486,22 @@ vue@^3.2.47:
     "@vue/runtime-dom" "3.2.47"
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
+
+wwlui@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/wwlui/-/wwlui-0.0.1.tgz#05f5141034b7103b308c2f8de88f5e17ca5fd8d9"
+  integrity sha512-ji83yzoiii/mWJ+uAAoQDUrdUOf7PrWXjM7hoxo+S4abeoKiO+lETqmNBSh+Li9qyFreQ+sTMEXP/38SCvwzgg==
+  dependencies:
+    sass "^1.62.0"
+    scss "^0.2.4"
+    vue "^3.2.47"
+
+wwlui@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/wwlui/-/wwlui-0.0.2.tgz#59e4a80d73212c12fe4018730f990bdbf64f4f50"
+  integrity sha512-nNtG1Qh5f//USJkc36iY8Y22tMrihd/KHA1HWOa7NgH8qeQFYt36qlFqvh8JM0zz/msbPRYNwrEPTG1YvsLARw==
+  dependencies:
+    sass "^1.62.0"
+    scss "^0.2.4"
+    vue "^3.2.47"
+    wwlui "^0.0.1"

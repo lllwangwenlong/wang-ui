@@ -1,7 +1,7 @@
 {
   "name": "wwlui",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.4",
   "type": "module",
   "main": "./dist/wwlui.umd.cjs",
   "module": "./dist/wwlui.js",
@@ -22,7 +22,8 @@
   "dependencies": {
     "sass": "^1.62.0",
     "scss": "^0.2.4",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "wwlui": "^0.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
