@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/packages/index.js',
-      name: 'wang-ui'
+      name: 'wwlui'
     }
   }
 })

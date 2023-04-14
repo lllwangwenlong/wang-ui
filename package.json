@@ -1,14 +1,14 @@
 {
-  "name": "wang-ui",
+  "name": "wwlui",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "main": "./dist/wang-ui.umd.cjs",
-  "module": "./dist/wang-ui.js",
+  "main": "./dist/wwlui.umd.cjs",
+  "module": "./dist/wwlui.js",
   "exports": {
     ".": {
-      "import": "./dist/wang-ui.js",
-      "require": "./dist/wang-ui.umd.cjs"
+      "import": "./dist/wwlui.js",
+      "require": "./dist/wwlui.umd.cjs"
     }
   },
   "files": [
