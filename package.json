@@ -1,0 +1,31 @@
+{
+  "name": "wang-ui",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/wang-ui.umd.cjs",
+  "module": "./dist/wang-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/wang-ui.js",
+      "require": "./dist/wang-ui.umd.cjs"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.62.0",
+    "scss": "^0.2.4",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0"
+  }
+}
